@@ -1,0 +1,13 @@
+# apt-get installs
+htop
+vim
+curl
+wget
+net-tools
+sysstat
+ssh
+pdsh
+rsync
+openjdk-8-jdk
+telnet
+scala
