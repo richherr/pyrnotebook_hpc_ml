@@ -303,8 +303,6 @@ system(paste("rm -rf ", path, sep=""))
 system("mkdir /tmp/new_tmp")
 set.tempdir("/tmp/new_tmp")
 
-ctv::install.views("TimeSeries", repos="https://cloud.r-project.org/")
-
 require(unixtools)
 path<-tempdir()
 system(paste("rm -rf ", path, sep=""))
@@ -548,11 +546,17 @@ install.packages("trtf", repos="https://cloud.r-project.org/")
 install.packages("varSelRF", repos="https://cloud.r-project.org/")
 install.packages("wsrf", repos="https://cloud.r-project.org/")
 install.packages("xgboost", repos="https://cloud.r-project.org/")
-# 
-# # ctv::install.views("MachineLearning", repos="https://cloud.r-project.org/")
-# 
-# require(unixtools)
-# path<-tempdir()
-# system(paste("rm -rf ", path, sep=""))
-# system("mkdir /tmp/new_tmp")
-# set.tempdir("/tmp/new_tmp")
+ 
+require(unixtools)
+path<-tempdir()
+system(paste("rm -rf ", path, sep=""))
+system("mkdir /tmp/new_tmp")
+set.tempdir("/tmp/new_tmp")
+
+ctv::install.views("TimeSeries", repos="https://cloud.r-project.org/")
+
+require(unixtools)
+path<-tempdir()
+system(paste("rm -rf ", path, sep=""))
+system("mkdir /tmp/new_tmp")
+set.tempdir("/tmp/new_tmp")
