@@ -9,6 +9,8 @@ channels:
   - r
 
 dependencies:
+  - pip:
+      - jupyterlab_latex
   - libgcc
   - gxx_linux-64
   - numpy
