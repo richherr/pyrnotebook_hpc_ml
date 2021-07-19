@@ -1,3 +1,11 @@
+require(unixtools)
+path<-tempdir()
+system(paste("rm -rf ", "Rtmp*",path, sep=""))
+system("mkdir /tmp/new_tmp")
+set.tempdir("/tmp/new_tmp")
+
+install.packages("tinytex", repos="https://cloud.r-project.org/")
+tinytex::install_tinytex()
 install.packages("rvest", repos="https://cloud.r-project.org/")
 install.packages("devtools", repos="https://cloud.r-project.org/")
 devtools::install_github("s-u/unixtools")

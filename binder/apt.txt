@@ -21,4 +21,5 @@ texlive-latex-recommended
 texlive-publishers
 texlive-science
 texlive-xetex
+lmodern
 cm-super
