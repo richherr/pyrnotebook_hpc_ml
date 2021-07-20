@@ -23,7 +23,6 @@ pip install jupyterlab_latex
 pip install radian
 pip install tpot
 
-
 ###############################################################
 
 # run matplotlib once to generate the font cache
