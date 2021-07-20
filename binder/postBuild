@@ -1,7 +1,5 @@
 #!/bin/bash
 
-conda install xarray bottleneck
-
 Rscript binder/Rcpp_install.R
 
 git clone --recursive https://github.com/s-u/unixtools.git unixtools
