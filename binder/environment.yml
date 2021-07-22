@@ -130,6 +130,7 @@ dependencies:
   - oauth2client                  
   - oauthlib      
   - pytorch
+  - r-raster
   - r-devtools
   - r-checkpoint
   - r-essentials
