@@ -9,6 +9,7 @@ system(paste("rm -rf ", path, sep=""))
 system("mkdir /tmp/new_tmp")
 set.tempdir("/tmp/new_tmp")
 
+install.packages("tsviz", repos="https://cran.microsoft.com/")
 install.packages("rvest", repos="https://cran.microsoft.com/")
 install.packages("reticulate", repos="https://cran.microsoft.com/")
 install.packages("tensorflow", repos="https://cran.microsoft.com/")
@@ -1404,1165 +1405,1165 @@ set.tempdir("/tmp/new_tmp")
 install.packages('mixAR',repos='https://cran.microsoft.com/')
 install.packages('mlVAR',repos='https://cran.microsoft.com/')
 
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('modeltime',repos='https://cran.microsoft.com/')
-install.packages('modeltime.ensemble',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('mondate',repos='https://cran.microsoft.com/')
-install.packages('mssm',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('MSwM',repos='https://cran.microsoft.com/')
-install.packages('MTS',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('mtsdi',repos='https://cran.microsoft.com/')
-install.packages('multDM',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('MultipleBubbles',repos='https://cran.microsoft.com/')
-install.packages('multitaper',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('nardl',repos='https://cran.microsoft.com/')
-install.packages('nets',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('NGSSEML',repos='https://cran.microsoft.com/')
-install.packages('NlinTS',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('nlts',repos='https://cran.microsoft.com/')
-install.packages('nnfor',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('nonlinearTseries',repos='https://cran.microsoft.com/')
-install.packages('npst',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('nsarfima',repos='https://cran.microsoft.com/')
-install.packages('NTS',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('odpc',repos='https://cran.microsoft.com/')
-install.packages('onlineVAR',repos='https://cran.microsoft.com/')
-install.packages('opera',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('otsad',repos='https://cran.microsoft.com/')
-install.packages('paleoTS',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('partsm',repos='https://cran.microsoft.com/')
-install.packages('pastecs',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('PCA4TS',repos='https://cran.microsoft.com/')
-install.packages('pcdpca',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('pcts',repos='https://cran.microsoft.com/')
-install.packages('pdc',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('pdfetch',repos='https://cran.microsoft.com/')
-install.packages('perARMA',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('pomp',repos='https://cran.microsoft.com/')
-install.packages('portes',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('ProbReco',repos='https://cran.microsoft.com/')
-install.packages('prophet',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('psd',repos='https://cran.microsoft.com/')
-install.packages('PSF',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('ptw',repos='https://cran.microsoft.com/')
-install.packages('Quandl',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('quantspec',repos='https://cran.microsoft.com/')
-install.packages('Rbeast',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('Rcatch22',repos='https://cran.microsoft.com/')
-install.packages('readabs',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('regspec',repos='https://cran.microsoft.com/')
-install.packages('RGENERATE',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('rhosa',repos='https://cran.microsoft.com/')
-install.packages('RJDemetra',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('Rlgt',repos='https://cran.microsoft.com/')
-install.packages('Rlibeemd',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('rmaf',repos='https://cran.microsoft.com/')
-install.packages('RMAWGEN',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('robets',repos='https://cran.microsoft.com/')
-install.packages('robfilter',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('RobKF',repos='https://cran.microsoft.com/')
-install.packages('robustarima',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('roll',repos='https://cran.microsoft.com/')
-install.packages('RSEIS',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('Rsfar',repos='https://cran.microsoft.com/')
-install.packages('Rssa',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('RTransferEntropy',repos='https://cran.microsoft.com/')
-install.packages('rts',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('rucrdtw',repos='https://cran.microsoft.com/')
-install.packages('rugarch',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('runner',repos='https://cran.microsoft.com/')
-install.packages('runstats',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('rwt',repos='https://cran.microsoft.com/')
-install.packages('sazedR',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('scoringRules',repos='https://cran.microsoft.com/')
-install.packages('scoringutils',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('SDD',repos='https://cran.microsoft.com/')
-install.packages('sde',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('seas',repos='https://cran.microsoft.com/')
-install.packages('season',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('seasonal',repos='https://cran.microsoft.com/')
-install.packages('seasonalview',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('seer',repos='https://cran.microsoft.com/')
-install.packages('Sim.DiffProc',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('sleekts',repos='https://cran.microsoft.com/')
-install.packages('slider',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('smooth',repos='https://cran.microsoft.com/')
-install.packages('smoots',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('sparsevar',repos='https://cran.microsoft.com/')
-install.packages('spectral',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('spTimer',repos='https://cran.microsoft.com/')
-install.packages('statespacer',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('stlplus',repos='https://cran.microsoft.com/')
-install.packages('stochvol',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('stR',repos='https://cran.microsoft.com/')
-install.packages('strucchange',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('strucchangeRcpp',repos='https://cran.microsoft.com/')
-install.packages('stsm',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('sugrrants',repos='https://cran.microsoft.com/')
-install.packages('surveillance',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('svars',repos='https://cran.microsoft.com/')
-install.packages('sweep',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('sym.arma',repos='https://cran.microsoft.com/')
-install.packages('synthesis',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('tbrf',repos='https://cran.microsoft.com/')
-install.packages('Tcomp',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('tempdisagg',repos='https://cran.microsoft.com/')
-install.packages('tensorTS',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('testcorr',repos='https://cran.microsoft.com/')
-install.packages('tfarima',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('tframe',repos='https://cran.microsoft.com/')
-install.packages('thief',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('Tides',repos='https://cran.microsoft.com/')
-install.packages('tiger',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('timechange',repos='https://cran.microsoft.com/')
-install.packages('timeDate',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('TimeProjection',repos='https://cran.microsoft.com/')
-install.packages('timesboot',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('timeSeries',repos='https://cran.microsoft.com/')
-install.packages('timeseriesdb',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('timetk',repos='https://cran.microsoft.com/')
-install.packages('timsac',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('tis',repos='https://cran.microsoft.com/')
-install.packages('tpr',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('trend',repos='https://cran.microsoft.com/')
-install.packages('TSA',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('tsbox',repos='https://cran.microsoft.com/')
-install.packages('TSclust',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('tscount',repos='https://cran.microsoft.com/')
-install.packages('TSdbi',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('tsdecomp',repos='https://cran.microsoft.com/')
-install.packages('tsdisagg2',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('TSdist',repos='https://cran.microsoft.com/')
-install.packages('tsDyn',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('TSEntropies',repos='https://cran.microsoft.com/')
-install.packages('tseries  ',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('tseriesChaos',repos='https://cran.microsoft.com/')
-install.packages('tseriesEntropy',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('tsfeatures',repos='https://cran.microsoft.com/')
-install.packages('tsfknn',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('tsibble',repos='https://cran.microsoft.com/')
-install.packages('tsibbledata',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('tsibbletalk',repos='https://cran.microsoft.com/')
-install.packages('tsintermittent',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('TSMining',repos='https://cran.microsoft.com/')
-install.packages('tsModel',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('tsoutliers',repos='https://cran.microsoft.com/')
-install.packages('tsPI',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('TSrepr',repos='https://cran.microsoft.com/')
-install.packages('tsrobprep',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('TSstudio',repos='https://cran.microsoft.com/')
-install.packages('TSTutorial',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('tsutils',repos='https://cran.microsoft.com/')
-install.packages('tswge',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('UComp',repos='https://cran.microsoft.com/')
-install.packages('urca',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('uroot',repos='https://cran.microsoft.com/')
-install.packages('VAR.etp',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('VARDetect',repos='https://cran.microsoft.com/')
-install.packages('vars',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('VARshrink',repos='https://cran.microsoft.com/')
-install.packages('VARsignR',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('WaveletComp',repos='https://cran.microsoft.com/')
-install.packages('wavelets',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('waveslim',repos='https://cran.microsoft.com/')
-install.packages('wavethresh',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('wavScalogram',repos='https://cran.microsoft.com/')
-install.packages('WeightedPortTest',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('wktmo',repos='https://cran.microsoft.com/')
-install.packages('wwntests',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('x12',repos='https://cran.microsoft.com/')
-install.packages('x12GUI',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('x13binary',repos='https://cran.microsoft.com/')
-install.packages('xts',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('yuima',repos='https://cran.microsoft.com/')
-install.packages('ZIM',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('zoo',repos='https://cran.microsoft.com/')
-install.packages('ZRA',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", "Rtmp*",path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('batch',repos='https://cran.microsoft.com/')
-install.packages('BatchExperiments',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('BatchJobs',repos='https://cran.microsoft.com/')
-install.packages('batchtools',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", "Rtmp*",path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('bcp',repos='https://cran.microsoft.com/')
-install.packages('BDgraph',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('biglm',repos='https://cran.microsoft.com/')
-install.packages('bigmemory',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", "Rtmp*",path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('bigstatsr',repos='https://cran.microsoft.com/')
-install.packages('bnlearn',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('caret',repos='https://cran.microsoft.com/')
-install.packages('clustermq',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", "Rtmp*",path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('data.table',repos='https://cran.microsoft.com/')
-install.packages('dclone',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('disk.frame',repos='https://cran.microsoft.com/')
-install.packages('doFuture',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", "Rtmp*",path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('doMC',repos='https://cran.microsoft.com/')
-install.packages('doMPI',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('doRNG',repos='https://cran.microsoft.com/')
-install.packages('doSNOW',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", "Rtmp*",path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('dqrng',repos='https://cran.microsoft.com/')
-install.packages('drake',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('ff',repos='https://cran.microsoft.com/')
-install.packages('ffbase',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", "Rtmp*",path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('flexiblas',repos='https://cran.microsoft.com/')
-install.packages('flowr',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('foreach',repos='https://cran.microsoft.com/')
-install.packages('future',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", "Rtmp*",path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('gcbd',repos='https://cran.microsoft.com/')
-install.packages('GUIProfiler',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('HadoopStreaming',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", "Rtmp*",path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('HistogramTools',repos='https://cran.microsoft.com/')
-install.packages('inline',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('LaF',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", "Rtmp*",path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('latentnet',repos='https://cran.microsoft.com/')
-install.packages('Matching',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('MonetDB.R',repos='https://cran.microsoft.com/')
-install.packages('mvnfast',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", "Rtmp*",path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('OpenCL',repos='https://cran.microsoft.com/')
-install.packages('orloca',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('parSim',repos='https://cran.microsoft.com/')
-install.packages('pbapply',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", "Rtmp*",path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('pbdBASE',repos='https://cran.microsoft.com/')
-install.packages('pbdMPI',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('pbdPROF',repos='https://cran.microsoft.com/')
-install.packages('pbdSLAP',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", "Rtmp*",path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('peperr',repos='https://cran.microsoft.com/')
-install.packages('permGPU',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('pls',repos='https://cran.microsoft.com/')
-install.packages('proffer',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", "Rtmp*",path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('profile',repos='https://cran.microsoft.com/')
-install.packages('profmem',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('profr',repos='https://cran.microsoft.com/')
-install.packages('proftools',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", "Rtmp*",path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('profvis',repos='https://cran.microsoft.com/')
-install.packages('pvclust',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('qsub',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", "Rtmp*",path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('Rcpp',repos='https://cran.microsoft.com/')
-install.packages('RcppParallel',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('Rdsm',repos='https://cran.microsoft.com/')
-install.packages('Rhpc',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('RhpcBLASctl',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", "Rtmp*",path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('RInside',repos='https://cran.microsoft.com/')
-install.packages('rJava',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('rlecuyer',repos='https://cran.microsoft.com/')
-install.packages('Rmpi (core)',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", "Rtmp*",path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('RProtoBuf',repos='https://cran.microsoft.com/')
-install.packages('rredis',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('rslurm',repos='https://cran.microsoft.com/')
-install.packages('rstream',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", "Rtmp*",path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('Sim.DiffProc',repos='https://cran.microsoft.com/')
-install.packages('sitmo',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('snow (core)',repos='https://cran.microsoft.com/')
-install.packages('snowfall',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", "Rtmp*",path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('snowFT',repos='https://cran.microsoft.com/')
-install.packages('speedglm',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('sqldf',repos='https://cran.microsoft.com/')
-install.packages('ssgraph',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", "Rtmp*",path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('STAR',repos='https://cran.microsoft.com/')
-install.packages('targets',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
-
-install.packages('tm',repos='https://cran.microsoft.com/')
-
-require(unixtools)
-path<-tempdir()
-system(paste("rm -rf ", "Rtmp*",path, sep=""))
-system("mkdir /tmp/new_tmp")
-set.tempdir("/tmp/new_tmp")
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('modeltime',repos='https://cran.microsoft.com/')
+# install.packages('modeltime.ensemble',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('mondate',repos='https://cran.microsoft.com/')
+# install.packages('mssm',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('MSwM',repos='https://cran.microsoft.com/')
+# install.packages('MTS',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('mtsdi',repos='https://cran.microsoft.com/')
+# install.packages('multDM',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('MultipleBubbles',repos='https://cran.microsoft.com/')
+# install.packages('multitaper',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('nardl',repos='https://cran.microsoft.com/')
+# install.packages('nets',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('NGSSEML',repos='https://cran.microsoft.com/')
+# install.packages('NlinTS',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('nlts',repos='https://cran.microsoft.com/')
+# install.packages('nnfor',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('nonlinearTseries',repos='https://cran.microsoft.com/')
+# install.packages('npst',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('nsarfima',repos='https://cran.microsoft.com/')
+# install.packages('NTS',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('odpc',repos='https://cran.microsoft.com/')
+# install.packages('onlineVAR',repos='https://cran.microsoft.com/')
+# install.packages('opera',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('otsad',repos='https://cran.microsoft.com/')
+# install.packages('paleoTS',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('partsm',repos='https://cran.microsoft.com/')
+# install.packages('pastecs',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('PCA4TS',repos='https://cran.microsoft.com/')
+# install.packages('pcdpca',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('pcts',repos='https://cran.microsoft.com/')
+# install.packages('pdc',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('pdfetch',repos='https://cran.microsoft.com/')
+# install.packages('perARMA',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('pomp',repos='https://cran.microsoft.com/')
+# install.packages('portes',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('ProbReco',repos='https://cran.microsoft.com/')
+# install.packages('prophet',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('psd',repos='https://cran.microsoft.com/')
+# install.packages('PSF',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('ptw',repos='https://cran.microsoft.com/')
+# install.packages('Quandl',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('quantspec',repos='https://cran.microsoft.com/')
+# install.packages('Rbeast',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('Rcatch22',repos='https://cran.microsoft.com/')
+# install.packages('readabs',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('regspec',repos='https://cran.microsoft.com/')
+# install.packages('RGENERATE',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('rhosa',repos='https://cran.microsoft.com/')
+# install.packages('RJDemetra',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('Rlgt',repos='https://cran.microsoft.com/')
+# install.packages('Rlibeemd',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('rmaf',repos='https://cran.microsoft.com/')
+# install.packages('RMAWGEN',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('robets',repos='https://cran.microsoft.com/')
+# install.packages('robfilter',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('RobKF',repos='https://cran.microsoft.com/')
+# install.packages('robustarima',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('roll',repos='https://cran.microsoft.com/')
+# install.packages('RSEIS',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('Rsfar',repos='https://cran.microsoft.com/')
+# install.packages('Rssa',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('RTransferEntropy',repos='https://cran.microsoft.com/')
+# install.packages('rts',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('rucrdtw',repos='https://cran.microsoft.com/')
+# install.packages('rugarch',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('runner',repos='https://cran.microsoft.com/')
+# install.packages('runstats',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('rwt',repos='https://cran.microsoft.com/')
+# install.packages('sazedR',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('scoringRules',repos='https://cran.microsoft.com/')
+# install.packages('scoringutils',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('SDD',repos='https://cran.microsoft.com/')
+# install.packages('sde',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('seas',repos='https://cran.microsoft.com/')
+# install.packages('season',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('seasonal',repos='https://cran.microsoft.com/')
+# install.packages('seasonalview',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('seer',repos='https://cran.microsoft.com/')
+# install.packages('Sim.DiffProc',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('sleekts',repos='https://cran.microsoft.com/')
+# install.packages('slider',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('smooth',repos='https://cran.microsoft.com/')
+# install.packages('smoots',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('sparsevar',repos='https://cran.microsoft.com/')
+# install.packages('spectral',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('spTimer',repos='https://cran.microsoft.com/')
+# install.packages('statespacer',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('stlplus',repos='https://cran.microsoft.com/')
+# install.packages('stochvol',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('stR',repos='https://cran.microsoft.com/')
+# install.packages('strucchange',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('strucchangeRcpp',repos='https://cran.microsoft.com/')
+# install.packages('stsm',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('sugrrants',repos='https://cran.microsoft.com/')
+# install.packages('surveillance',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('svars',repos='https://cran.microsoft.com/')
+# install.packages('sweep',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('sym.arma',repos='https://cran.microsoft.com/')
+# install.packages('synthesis',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('tbrf',repos='https://cran.microsoft.com/')
+# install.packages('Tcomp',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('tempdisagg',repos='https://cran.microsoft.com/')
+# install.packages('tensorTS',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('testcorr',repos='https://cran.microsoft.com/')
+# install.packages('tfarima',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('tframe',repos='https://cran.microsoft.com/')
+# install.packages('thief',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('Tides',repos='https://cran.microsoft.com/')
+# install.packages('tiger',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('timechange',repos='https://cran.microsoft.com/')
+# install.packages('timeDate',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('TimeProjection',repos='https://cran.microsoft.com/')
+# install.packages('timesboot',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('timeSeries',repos='https://cran.microsoft.com/')
+# install.packages('timeseriesdb',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('timetk',repos='https://cran.microsoft.com/')
+# install.packages('timsac',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('tis',repos='https://cran.microsoft.com/')
+# install.packages('tpr',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('trend',repos='https://cran.microsoft.com/')
+# install.packages('TSA',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('tsbox',repos='https://cran.microsoft.com/')
+# install.packages('TSclust',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('tscount',repos='https://cran.microsoft.com/')
+# install.packages('TSdbi',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('tsdecomp',repos='https://cran.microsoft.com/')
+# install.packages('tsdisagg2',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('TSdist',repos='https://cran.microsoft.com/')
+# install.packages('tsDyn',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('TSEntropies',repos='https://cran.microsoft.com/')
+# install.packages('tseries  ',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('tseriesChaos',repos='https://cran.microsoft.com/')
+# install.packages('tseriesEntropy',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('tsfeatures',repos='https://cran.microsoft.com/')
+# install.packages('tsfknn',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('tsibble',repos='https://cran.microsoft.com/')
+# install.packages('tsibbledata',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('tsibbletalk',repos='https://cran.microsoft.com/')
+# install.packages('tsintermittent',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('TSMining',repos='https://cran.microsoft.com/')
+# install.packages('tsModel',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('tsoutliers',repos='https://cran.microsoft.com/')
+# install.packages('tsPI',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('TSrepr',repos='https://cran.microsoft.com/')
+# install.packages('tsrobprep',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('TSstudio',repos='https://cran.microsoft.com/')
+# install.packages('TSTutorial',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('tsutils',repos='https://cran.microsoft.com/')
+# install.packages('tswge',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('UComp',repos='https://cran.microsoft.com/')
+# install.packages('urca',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('uroot',repos='https://cran.microsoft.com/')
+# install.packages('VAR.etp',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('VARDetect',repos='https://cran.microsoft.com/')
+# install.packages('vars',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('VARshrink',repos='https://cran.microsoft.com/')
+# install.packages('VARsignR',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('WaveletComp',repos='https://cran.microsoft.com/')
+# install.packages('wavelets',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('waveslim',repos='https://cran.microsoft.com/')
+# install.packages('wavethresh',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('wavScalogram',repos='https://cran.microsoft.com/')
+# install.packages('WeightedPortTest',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('wktmo',repos='https://cran.microsoft.com/')
+# install.packages('wwntests',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('x12',repos='https://cran.microsoft.com/')
+# install.packages('x12GUI',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('x13binary',repos='https://cran.microsoft.com/')
+# install.packages('xts',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('yuima',repos='https://cran.microsoft.com/')
+# install.packages('ZIM',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('zoo',repos='https://cran.microsoft.com/')
+# install.packages('ZRA',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", "Rtmp*",path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('batch',repos='https://cran.microsoft.com/')
+# install.packages('BatchExperiments',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('BatchJobs',repos='https://cran.microsoft.com/')
+# install.packages('batchtools',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", "Rtmp*",path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('bcp',repos='https://cran.microsoft.com/')
+# install.packages('BDgraph',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('biglm',repos='https://cran.microsoft.com/')
+# install.packages('bigmemory',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", "Rtmp*",path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('bigstatsr',repos='https://cran.microsoft.com/')
+# install.packages('bnlearn',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('caret',repos='https://cran.microsoft.com/')
+# install.packages('clustermq',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", "Rtmp*",path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('data.table',repos='https://cran.microsoft.com/')
+# install.packages('dclone',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('disk.frame',repos='https://cran.microsoft.com/')
+# install.packages('doFuture',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", "Rtmp*",path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('doMC',repos='https://cran.microsoft.com/')
+# install.packages('doMPI',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('doRNG',repos='https://cran.microsoft.com/')
+# install.packages('doSNOW',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", "Rtmp*",path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('dqrng',repos='https://cran.microsoft.com/')
+# install.packages('drake',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('ff',repos='https://cran.microsoft.com/')
+# install.packages('ffbase',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", "Rtmp*",path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('flexiblas',repos='https://cran.microsoft.com/')
+# install.packages('flowr',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('foreach',repos='https://cran.microsoft.com/')
+# install.packages('future',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", "Rtmp*",path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('gcbd',repos='https://cran.microsoft.com/')
+# install.packages('GUIProfiler',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('HadoopStreaming',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", "Rtmp*",path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('HistogramTools',repos='https://cran.microsoft.com/')
+# install.packages('inline',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('LaF',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", "Rtmp*",path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('latentnet',repos='https://cran.microsoft.com/')
+# install.packages('Matching',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('MonetDB.R',repos='https://cran.microsoft.com/')
+# install.packages('mvnfast',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", "Rtmp*",path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('OpenCL',repos='https://cran.microsoft.com/')
+# install.packages('orloca',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('parSim',repos='https://cran.microsoft.com/')
+# install.packages('pbapply',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", "Rtmp*",path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('pbdBASE',repos='https://cran.microsoft.com/')
+# install.packages('pbdMPI',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('pbdPROF',repos='https://cran.microsoft.com/')
+# install.packages('pbdSLAP',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", "Rtmp*",path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('peperr',repos='https://cran.microsoft.com/')
+# install.packages('permGPU',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('pls',repos='https://cran.microsoft.com/')
+# install.packages('proffer',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", "Rtmp*",path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('profile',repos='https://cran.microsoft.com/')
+# install.packages('profmem',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('profr',repos='https://cran.microsoft.com/')
+# install.packages('proftools',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", "Rtmp*",path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('profvis',repos='https://cran.microsoft.com/')
+# install.packages('pvclust',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('qsub',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", "Rtmp*",path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('Rcpp',repos='https://cran.microsoft.com/')
+# install.packages('RcppParallel',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('Rdsm',repos='https://cran.microsoft.com/')
+# install.packages('Rhpc',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('RhpcBLASctl',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", "Rtmp*",path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('RInside',repos='https://cran.microsoft.com/')
+# install.packages('rJava',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('rlecuyer',repos='https://cran.microsoft.com/')
+# install.packages('Rmpi (core)',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", "Rtmp*",path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('RProtoBuf',repos='https://cran.microsoft.com/')
+# install.packages('rredis',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('rslurm',repos='https://cran.microsoft.com/')
+# install.packages('rstream',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", "Rtmp*",path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('Sim.DiffProc',repos='https://cran.microsoft.com/')
+# install.packages('sitmo',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('snow (core)',repos='https://cran.microsoft.com/')
+# install.packages('snowfall',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", "Rtmp*",path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('snowFT',repos='https://cran.microsoft.com/')
+# install.packages('speedglm',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('sqldf',repos='https://cran.microsoft.com/')
+# install.packages('ssgraph',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", "Rtmp*",path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('STAR',repos='https://cran.microsoft.com/')
+# install.packages('targets',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
+# 
+# install.packages('tm',repos='https://cran.microsoft.com/')
+# 
+# require(unixtools)
+# path<-tempdir()
+# system(paste("rm -rf ", "Rtmp*",path, sep=""))
+# system("mkdir /tmp/new_tmp")
+# set.tempdir("/tmp/new_tmp")
