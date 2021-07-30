@@ -3,8 +3,14 @@
  
 [![Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/richherr/pyrnotebook_hpc_ml/HEAD)
 
+### Pangeo
+[![Binder](https://mybinder.org/badge_logo.svg)](https://binder.pangeo.io/v2/gh/richherr/hpc_ml_intro/master?urlpath=tree)
+
 ### GKE (2 cores - 2 GB RAM)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/richherr/pyrnotebook_hpc_ml/HEAD)
 
 ### Turing (1 core - 2GB RAM)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://turing.mybinder.org/v2/gh/richherr/pyrnotebook_hpc_ml/HEAD)
+
+### OVH
+[![Binder](https://mybinder.org/badge_logo.svg)](https://ovh.mybinder.org/v2/gh/richherr/hpc_ml_intro/HEAD)
