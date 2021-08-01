@@ -11,6 +11,7 @@ channels:
   
 dependencies:
 
+  - r-minimax
   - xarray
   - bottleneck
   - git

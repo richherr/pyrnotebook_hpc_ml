@@ -12,7 +12,6 @@ set.tempdir("/tmp/new_tmp")
 
 
 install.packages("GMMBoost", repos="https://cran.microsoft.com/")
-install.packages("Boruta", repos="https://cran.microsoft.com/")
 install.packages("ggRandomForests", repos="https://cran.microsoft.com/")
 install.packages("party", repos="https://cran.microsoft.com/")
 install.packages("relaimpo", repos="https://cran.microsoft.com/")
